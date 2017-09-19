@@ -17,12 +17,23 @@ module.exports = function(environment) {
         Date: false
       }
     },
+<<<<<<< HEAD
     
     firebase: {
       apiKey: "AIzaSyDTbPEXCZziGlngQZexBnUK1QMfxQ6X5d8",
       authDomain: "super-rentals-e197d.firebaseapp.com",
       databaseURL: "https://super-rentals-e197d.firebaseio.com",
       storageBucket: "super-rentals-e197d.appspot.com"
+=======
+
+    firebase: {
+      apiKey: "AIzaSyB3KkQ48BdZuoFJpaT0Za0I5Djos00Cmi0",
+      authDomain: "super-rentals-92323.firebaseapp.com",
+      databaseURL: "https://super-rentals-92323.firebaseio.com",
+      storageBucket: "",
+      projectId: "super-rentals-92323",
+      messagingSenderId: "958619781094"
+>>>>>>> d33c8a888429fb71e716770bf9790a1eca9e0767
     },
 
     APP: {

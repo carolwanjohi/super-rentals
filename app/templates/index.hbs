@@ -1,8 +1,13 @@
+<<<<<<< HEAD
 <h1 class="jumbotron"> Welcome to Super Rentals </h1>
+=======
+<h1> Welcome to Super Rentals </h1>
+>>>>>>> d33c8a888429fb71e716770bf9790a1eca9e0767
 
 We hope you find exactly what you're looking for in a place to stay.
 
 <ul>
+<<<<<<< HEAD
     {{#each model as |rental|}}
         {{rental-title rental=rental  update="update" destroyRental="destroyRental"}}
     {{/each}}
@@ -12,3 +17,12 @@ We hope you find exactly what you're looking for in a place to stay.
 
 {{#link-to 'about'}}About{{/link-to}}
 {{#link-to 'contact'}}Click here to contact us{{/link-to}}
+=======
+  {{#each model as |rental|}}
+     <li>{{rental-tile rental=rental}}</li>
+  {{/each}}
+</ul>
+
+{{#link-to 'about'}}About{{/link-to}}
+{{#link-to 'contact'}}Click here to contact us.{{/link-to}}
+>>>>>>> d33c8a888429fb71e716770bf9790a1eca9e0767
